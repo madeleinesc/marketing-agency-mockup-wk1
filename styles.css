@@ -1,19 +1,22 @@
+/* universal selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* color of main body of webpage */
 body {
     background-color: #d9dcd6;
 }
 
-
+/* header color and padding */
 header {
     background-color: #2a607c;
     padding: 20px;
 }
 
+/* font style, size and display settings of main heading   */
 h1 {
     display: inline-block;
     font-size: 48px; 
@@ -21,10 +24,12 @@ h1 {
     color: #ffffff;
 }
 
+/* 'seo' part of heading in a slightly different color */
 .wordcolor {
     color: #d9dcd6;
 }
 
+/* navigation links properties */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,24 +38,29 @@ nav {
     font-size: 20px;
 }
 
+/* no dot points for unordered list item links */
 ul {
     list-style-type: none;
 }
 
+/* display of unordered list item links */
 nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* color and text decoration of links inside anchor */
 a {
     color: #ffffff;
     text-decoration: none; 
 }
 
+/* all font in paragraphs */
 p {
     font-size: 16px;
 }
 
+/* hero image properties */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* image within main section floated to the left of text */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* images within main section floated to the right of text */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* display of main section content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* properties of right side panel section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,54 +101,64 @@ p {
     background-color: #2589bd;
 }
 
+/* font color and margin space of 1st section of right side panel */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* font color and margin space after 1st section of right side panel */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* font color and margin space after 2nd section of right side panel */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* h3 properties for 1st section of right side panel */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* h3 properties for 2nd section of right side panel */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* h3 properties for 3rd section of right side panel */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* image properties of 1st section of right side panel */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* image properties of 2nd section of right side panel */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* image properties of 3rd section of right side panel */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* properties of 1st section of main page */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -144,6 +168,7 @@ p {
     color: #ffffff;
 }
 
+/* properties of 2nd section of main page */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -153,6 +178,7 @@ p {
     color: #ffffff;
 }
 
+/* properties of 3rd section of main page */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -162,37 +188,45 @@ p {
     color: #ffffff;
 }
 
+/* max image height for 1st section of main page */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* max image height for 2nd secction of main page */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* max image height for 3rd section of main page */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* h2 properties for 1st section of main page */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* h2 properties for 2nd section of main page */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* h2 properties for 3rd section of main page */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* h2 font size for footer */
 footer h2 {
     font-size: 20px;
 }
 
+/* properties for footer */
 footer {
     padding: 30px;
     clear: both;
